@@ -23,7 +23,7 @@ const Login = ({ setUser, setSecret }) => {
     }
   }, [resultLogin.data]); // eslint-disable-line
 
-  console.log(process.env.REACT_APP_PROJECT_ID);
+  
 
   return (
     <div className="login-page">
